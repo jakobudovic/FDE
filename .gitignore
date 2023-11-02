@@ -1,2 +1,4 @@
 .DS_Store
 tpch.zip
+tpch/*
+tpch_xzs/*
