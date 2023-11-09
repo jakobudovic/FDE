@@ -1,0 +1,38 @@
+time (for i in seq 1 1000; do echo $i; done;)
+to make it executable
+time (for i in $(seq 1 1000); do echo $i; done;)
+
+$() expects a command and will execute it
+$(()) is used to treat the expression as a mathematical/arithmetical one. i.e. $(($RANDOM+3))
+
+equivalent to linux "cat /proc/cpuinfo" is on mac: "sysctl -a | grep machdep.cpu"
+
+-march=native
+flag puts in a bunch of flag specific to your platform
+like includes, vectorisation imports
+
+-3.2
+
+-3.3
+high level languages are not platform specific
+
+learn about topic of builds and how it is used to bypass curse of different cpu architectures.
+
+4.1
+check lvalues and rvalue
+
+separator vs operator
+separator: unsigned i = 0 , j = 0;
+operator: ++i , j *= 2
+calculates ++i, calculates j*=0 and return the latter expression result, from j*=0
+
+
+4.3
+Numeric promotion vs numeric conversion
+promotion: when a + b, and one number is of lower datatype, it is promoted to the other (higher) one
+conversion: 
+int a = 5;
+short b = a;
+
+4.4
+std::cout << std::hex << 234624 << std::dec << 123;
