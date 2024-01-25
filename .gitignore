@@ -2,3 +2,6 @@
 tpch.zip
 tpch/*
 tpch_xzs/*
+*/fde-venv/*
+spark-tutorial/ipynb_checkpoints/*
+spark-tutorial/
