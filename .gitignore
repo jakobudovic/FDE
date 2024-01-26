@@ -5,3 +5,6 @@ tpch_xzs/*
 */fde-venv/*
 spark-tutorial/ipynb_checkpoints/*
 spark-tutorial/
+*.list
+*.csv
+*.csv.xz
